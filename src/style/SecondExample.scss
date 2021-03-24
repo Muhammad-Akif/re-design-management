@@ -1,0 +1,22 @@
+@import 'global';
+
+
+.SecondExample
+{
+    margin: 0 auto !important;
+    width: 60vw;
+    height: 60vh;
+
+    .Project
+    {
+        position: relative;
+        height: 55vh;
+        overflow: hidden;
+        background-color: rgb(230, 114, 78);
+
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
