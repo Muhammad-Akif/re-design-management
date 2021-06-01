@@ -13,14 +13,26 @@ const BackgroundVideo = () => {
             </video>
             <div className="Content">
                 <div className="SubContent" >
-                    {/* <h1>WE DESIGN YOUR DREAMS</h1> */}
                     <h1 class="animate__animated animate__heartBeat">WE DESIGN YOUR DREAMS</h1>
-                    {/* <p class="animate__animated animate__bounceInUp"style={{fontSize: "20px"}}>A premier wedding planner and event coordination company in Pakistan and abroad, Shan event management is your one stop shop for wedding and corporate events.</p> */}
                     <p><TextAnimation/></p>
                     <button type="button" className="btn btn-outline-dark animate__animated animate__pulse">Get Started</button>
                     
                 </div>
             </div>
+			{/* <div class="content">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+								<h1>Event Management &amp; Planning</h1>
+								<h2>A goal without a plan is just a wish</h2>
+								<div class="simply-countdown simply-countdown-one"></div>
+								<p><a href="#" class="btn btn-default btn-sm">Save your memories</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> */}
         </div>
     )
 }

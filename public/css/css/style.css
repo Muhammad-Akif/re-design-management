@@ -53,7 +53,7 @@ a {
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: #F14E95 !important;
   outline: none;
   text-decoration: none;
 }
@@ -940,8 +940,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 100px !important;
+  height: 100px !important;
   background: rgba(241, 78, 149, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -1640,7 +1640,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
-    display: block;
+    display: block !important;
   }
 }
 

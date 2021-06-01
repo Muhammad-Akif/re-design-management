@@ -1,4 +1,4 @@
-/*Slider*/
+Slider
 #carousel{
   text-align:center;
   margin: 50px 0px;
@@ -11,7 +11,7 @@
 .Container {
     position: relative;
     max-width: 250vh;
-    height: 93.95vh;
+    height: 100vh;
     overflow: hidden;
     margin-bottom: 0px;
 }
